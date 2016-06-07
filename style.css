@@ -1,0 +1,269 @@
+body{
+	align-content: center;
+	background-image: url(image/BG.jpg);
+	background-repeat: repeat-x;
+	}
+	
+body.humaninterest{
+	background: url(image/Special-HumanInterest.jpg) no-repeat center;
+	background-color: #000;
+}
+
+body.landscape{
+	background: url(image/Special-Landscape.jpg) no-repeat center;
+	background-color: #000;
+}
+
+body.model{
+	background: url(image/Special-Model.jpg) no-repeat center;
+	background-color: #000;
+}
+
+body.toys{
+	background: url(image/Special-Toys.jpg) no-repeat center;
+	background-color: #000;
+}
+
+body.wildlife{
+	background: url(image/Special-Wildlife.jpg) no-repeat center;
+	background-color: #000;
+}
+
+body.abstract{
+	background: url(image/Special-Abstract.jpg) no-repeat center;
+	background-color: #000;
+}
+
+#container{
+	width:1000px;
+	align:center;
+	padding:0px;
+	margin: 0 auto;
+}
+
+.content{
+	box-shadow: 0px 0px 5px #000000;
+}
+
+#header{
+	border: #ca0002;
+	padding: 20px;
+	width: 960px;
+	height: 115px;
+	line-height: 115px;
+	background-color: #ca0002;
+	margin-top: 35px;
+
+}
+
+#footer{
+	padding: 20px;
+	width: 960px;
+	height: 150px;
+	line-height: 150px;
+	background-color: #000;
+	color: #fff;
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+
+#specialpages{
+	height: 1000px;
+	padding-top: 250px;
+}
+
+#specialcontent{
+	width: 700px;
+	margin: 0 auto;
+	padding: 10px;
+	background:rgba(0,0,0, 0.7);
+	font-family: arial;
+	color: #fff;
+}
+
+#specialcontent h1{
+	color: #fff;	
+}
+
+#ads{
+	width: 728px;
+	height: 90px;
+	background-color: #e1e5f0;
+	color: #acacac;
+	line-height: 90px;
+	text-align:center;
+	font-size: 25px;
+	float:right;
+	text-shadow: 1px 1px 0px #444,1px 1px 0px #444;
+}
+
+#menu{
+	height: 50px;
+	list-style: none;
+	background: url(image/bg-nav.png) repeat-x;
+	background-color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+#menu li a{
+	height: 50px;
+	font-family: arial Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size:36px;
+	color: #ffffff;
+	margin: 0;
+	padding-left:20px;
+	padding-right:20px;
+	text-decoration:none;
+	text-shadow: 1px 1px 0px #444,-1px -1px 0px #444;	
+	float: left;
+	border-right: 1pt inset;
+}
+
+#menu li a:hover{
+	background-color:#CC0003;
+	background: url(image/bg-nav-hover.png) repeat-x;
+}
+
+#gallery{
+	width: 960px;
+	padding: 20px;
+	background-color: #ffffff;
+	
+}
+
+#therealcontent{
+	width: 980px;
+	padding: 10px;
+	background-color: #ffffff;
+}
+
+#caption, #postcaption, #sidebarcaption{
+	height: 40px;
+	line-height: 40px;
+	background: url(image/head-bar.png) repeat-x;
+	background-color: #000;
+	font-family: arial;
+	font-size: 25px;
+	padding-left: 20px;
+	color: #ffffff;
+	text-shadow: 1px 1px 0px #444,-1px -1px 0px #444;
+	margin-bottom: 10px;
+}
+
+#caption{width: 98%;}
+
+#postcaption{width: 97%;}
+
+#sidebarcaption{width: 94%;}
+
+a.gallery{
+	color: #ca0002;
+	font-family: arial;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+a.gallery:hover{color: #fd0003; text-decoration:underline;}
+
+img.favorite{height: 163;}
+
+img.favorite:hover{opacity: 0.75;}
+
+#sidebar{
+	width: 340px;
+	background-color: #e4e4e4;
+	margin-bottom: 30px;
+}
+
+#post{
+	width: 560px;
+	font-family: arial;
+	font-size: 14px;
+	text-align:justify;
+}
+
+a.caption{
+	color: #ca0002;
+	font-family: arial;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+a.caption:hover{color: #fd0003;}
+
+#post img{width: 100%; margin-bottom: 10px;}
+
+#post img:hover{opacity: 0.75;}
+
+a.continue{font-family: arial; font-size:12px; color: white; background-color: #6e0000; text-decoration:none;}
+a.continue:hover{background-color: #ca0002;}
+
+#listbro{
+	list-style: none;
+	padding-bottom: 10px;
+	color: #ca0002;
+	overflow: auto;
+	height: 300px;
+}
+
+#listbro li a{
+	font-family: arial;
+	font-weight: bold;
+	font-size:14px;
+	color: #ca0002;
+	text-decoration: none;
+	margin-bottom: 4px;
+}
+
+#listbro li a:hover{
+	color:  #fd0003;
+	text-decoration: underline;
+}
+
+img.rotation{
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+}
+
+.phone{
+	background-image: url(image/bg-phone.png);
+	background-repeat: no-repeat;
+}
+
+#phone{
+	width: 800px;
+	margin: 0 auto;
+	padding-top: 200px;
+	font-family: arial;
+	font-size: 14px;
+	text-align:justify;
+}
+
+.dslr{
+	background-image: url(image/bg-dslr.png);
+	background-repeat: no-repeat;
+}
+
+#dslr{
+	width: 650px;
+	margin: 0 auto;
+	padding-top: 400px;
+	font-family: arial;
+	font-size: 14px;
+	text-align:justify;
+}
+
+.about{
+	font-family: arial;
+	font-size: 14px;
+	text-align:justify;
+}
+
+.form{
+	margin: 0 auto;
+	padding: 15px;
+	width: 430px;
+	background-color: #dddddd;
+	border: 2px solid #000;
+}
